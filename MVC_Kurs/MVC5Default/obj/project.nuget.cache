@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "yZBoU1YqfViuha2m/5CKfix+G0ja5Wes/a1HOzWILHYLhHbzOBMJubcxirbfQX5eEtyQAyReaqvAzrPUN4ioHQ==",
+  "success": true,
+  "projectFilePath": "C:\\Aktueller Kurs\\ASPNETCore_MVC_KW22_ppedv\\MVC_Kurs\\MVC5Default\\MVC5Default.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kw4\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}

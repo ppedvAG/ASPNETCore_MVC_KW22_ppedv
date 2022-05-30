@@ -1,0 +1,15 @@
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_SingleResponsibilityPrincip\bin\Debug\net6.0\SOLID_SingleResponsibilityPrincip.exe
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_SingleResponsibilityPrincip\bin\Debug\net6.0\SOLID_SingleResponsibilityPrincip.deps.json
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_SingleResponsibilityPrincip\bin\Debug\net6.0\SOLID_SingleResponsibilityPrincip.runtimeconfig.json
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_SingleResponsibilityPrincip\bin\Debug\net6.0\SOLID_SingleResponsibilityPrincip.dll
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_SingleResponsibilityPrincip\bin\Debug\net6.0\SOLID_SingleResponsibilityPrincip.pdb
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_SingleResponsibilityPrincip\obj\Debug\net6.0\SOLID_SingleResponsibilityPrincip.csproj.AssemblyReference.cache
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_SingleResponsibilityPrincip\obj\Debug\net6.0\SOLID_SingleResponsibilityPrincip.GeneratedMSBuildEditorConfig.editorconfig
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_SingleResponsibilityPrincip\obj\Debug\net6.0\SOLID_SingleResponsibilityPrincip.AssemblyInfoInputs.cache
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_SingleResponsibilityPrincip\obj\Debug\net6.0\SOLID_SingleResponsibilityPrincip.AssemblyInfo.cs
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_SingleResponsibilityPrincip\obj\Debug\net6.0\SOLID_SingleResponsibilityPrincip.csproj.CoreCompileInputs.cache
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_SingleResponsibilityPrincip\obj\Debug\net6.0\SOLID_SingleResponsibilityPrincip.dll
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_SingleResponsibilityPrincip\obj\Debug\net6.0\refint\SOLID_SingleResponsibilityPrincip.dll
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_SingleResponsibilityPrincip\obj\Debug\net6.0\SOLID_SingleResponsibilityPrincip.pdb
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_SingleResponsibilityPrincip\obj\Debug\net6.0\SOLID_SingleResponsibilityPrincip.genruntimeconfig.cache
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_SingleResponsibilityPrincip\obj\Debug\net6.0\ref\SOLID_SingleResponsibilityPrincip.dll

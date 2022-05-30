@@ -1,0 +1,15 @@
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_OpenClosePrincip\bin\Debug\net6.0\SOLID_OpenClosePrincip.exe
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_OpenClosePrincip\bin\Debug\net6.0\SOLID_OpenClosePrincip.deps.json
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_OpenClosePrincip\bin\Debug\net6.0\SOLID_OpenClosePrincip.runtimeconfig.json
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_OpenClosePrincip\bin\Debug\net6.0\SOLID_OpenClosePrincip.dll
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_OpenClosePrincip\bin\Debug\net6.0\SOLID_OpenClosePrincip.pdb
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_OpenClosePrincip\obj\Debug\net6.0\SOLID_OpenClosePrincip.csproj.AssemblyReference.cache
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_OpenClosePrincip\obj\Debug\net6.0\SOLID_OpenClosePrincip.GeneratedMSBuildEditorConfig.editorconfig
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_OpenClosePrincip\obj\Debug\net6.0\SOLID_OpenClosePrincip.AssemblyInfoInputs.cache
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_OpenClosePrincip\obj\Debug\net6.0\SOLID_OpenClosePrincip.AssemblyInfo.cs
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_OpenClosePrincip\obj\Debug\net6.0\SOLID_OpenClosePrincip.csproj.CoreCompileInputs.cache
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_OpenClosePrincip\obj\Debug\net6.0\SOLID_OpenClosePrincip.dll
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_OpenClosePrincip\obj\Debug\net6.0\refint\SOLID_OpenClosePrincip.dll
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_OpenClosePrincip\obj\Debug\net6.0\SOLID_OpenClosePrincip.pdb
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_OpenClosePrincip\obj\Debug\net6.0\SOLID_OpenClosePrincip.genruntimeconfig.cache
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_OpenClosePrincip\obj\Debug\net6.0\ref\SOLID_OpenClosePrincip.dll

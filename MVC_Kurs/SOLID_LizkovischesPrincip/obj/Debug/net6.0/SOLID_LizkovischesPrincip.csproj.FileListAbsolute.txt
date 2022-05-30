@@ -1,0 +1,15 @@
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_LizkovischesPrincip\obj\Debug\net6.0\SOLID_LizkovischesPrincip.csproj.AssemblyReference.cache
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_LizkovischesPrincip\obj\Debug\net6.0\SOLID_LizkovischesPrincip.GeneratedMSBuildEditorConfig.editorconfig
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_LizkovischesPrincip\obj\Debug\net6.0\SOLID_LizkovischesPrincip.AssemblyInfoInputs.cache
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_LizkovischesPrincip\obj\Debug\net6.0\SOLID_LizkovischesPrincip.AssemblyInfo.cs
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_LizkovischesPrincip\obj\Debug\net6.0\SOLID_LizkovischesPrincip.csproj.CoreCompileInputs.cache
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_LizkovischesPrincip\bin\Debug\net6.0\SOLID_LizkovischesPrincip.exe
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_LizkovischesPrincip\bin\Debug\net6.0\SOLID_LizkovischesPrincip.deps.json
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_LizkovischesPrincip\bin\Debug\net6.0\SOLID_LizkovischesPrincip.runtimeconfig.json
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_LizkovischesPrincip\bin\Debug\net6.0\SOLID_LizkovischesPrincip.dll
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_LizkovischesPrincip\bin\Debug\net6.0\SOLID_LizkovischesPrincip.pdb
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_LizkovischesPrincip\obj\Debug\net6.0\SOLID_LizkovischesPrincip.dll
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_LizkovischesPrincip\obj\Debug\net6.0\refint\SOLID_LizkovischesPrincip.dll
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_LizkovischesPrincip\obj\Debug\net6.0\SOLID_LizkovischesPrincip.pdb
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_LizkovischesPrincip\obj\Debug\net6.0\SOLID_LizkovischesPrincip.genruntimeconfig.cache
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_LizkovischesPrincip\obj\Debug\net6.0\ref\SOLID_LizkovischesPrincip.dll

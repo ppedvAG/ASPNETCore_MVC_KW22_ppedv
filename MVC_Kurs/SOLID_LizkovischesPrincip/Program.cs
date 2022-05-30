@@ -4,7 +4,7 @@
 ((Kirsche)coloredFruit).GetGeschmack();
 
 coloredFruit.GetColor();
-coloredFruit.GetGeschmack();
+//coloredFruit.GetGeschmack(); -> Nicht bei IColered vorhanden
 
 #region BadCode
 public class BadKirsche

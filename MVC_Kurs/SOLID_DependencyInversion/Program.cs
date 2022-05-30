@@ -59,6 +59,8 @@ public interface ICarService
 }
 
 //Programmierer A: 5 Tage -> Startet Tag 1 bis Tag 5
+
+
 public class Car : ICar
 {
     public string Marke { get; set; }
@@ -75,6 +77,16 @@ public class CarService : ICarService
         //repariere Auto
         
     }
+
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="car"></param>
+    /// <exception cref="NotImplementedException"></exception>
+    public void Repair(ICarVersion2 car)
+    {
+        throw new NotImplementedException();
+    }
 }
 
 //Programmierer B kann 2 Tage 'Testen'
@@ -86,5 +98,11 @@ public class DummyCar : ICar
     public int Baujahr { get; set; } = 2000;
 
 }
-
 #endregion
+
+
+//Gibt es Ausnahmen bei Interfaces 
+
+// POCO - Klassen (EF Core) -> Eine Poco-Klasse umreißt die Struktur einer Tabelle 
+
+// MVC - Controller-Klasse -> verwendet BaseController

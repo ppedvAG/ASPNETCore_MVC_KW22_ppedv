@@ -1,0 +1,18 @@
+﻿@using MVCKurs.Configurations;
+@model GameSettings;
+@{
+    ViewData["Title"] = "Sample2";
+}
+
+<h1>Sample2</h1>
+
+
+<p>@Model.Title</p>
+<p>@Model.SubTitle</p>
+
+
+@foreach (string currentString in Model.Updates)
+{
+    <p>@currentString</p>
+}
+

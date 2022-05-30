@@ -1,0 +1,15 @@
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_DependencyInversion\bin\Debug\net6.0\SOLID_DependencyInversion.exe
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_DependencyInversion\bin\Debug\net6.0\SOLID_DependencyInversion.deps.json
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_DependencyInversion\bin\Debug\net6.0\SOLID_DependencyInversion.runtimeconfig.json
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_DependencyInversion\bin\Debug\net6.0\SOLID_DependencyInversion.dll
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_DependencyInversion\bin\Debug\net6.0\SOLID_DependencyInversion.pdb
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_DependencyInversion\obj\Debug\net6.0\SOLID_DependencyInversion.csproj.AssemblyReference.cache
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_DependencyInversion\obj\Debug\net6.0\SOLID_DependencyInversion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_DependencyInversion\obj\Debug\net6.0\SOLID_DependencyInversion.AssemblyInfoInputs.cache
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_DependencyInversion\obj\Debug\net6.0\SOLID_DependencyInversion.AssemblyInfo.cs
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_DependencyInversion\obj\Debug\net6.0\SOLID_DependencyInversion.csproj.CoreCompileInputs.cache
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_DependencyInversion\obj\Debug\net6.0\SOLID_DependencyInversion.dll
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_DependencyInversion\obj\Debug\net6.0\refint\SOLID_DependencyInversion.dll
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_DependencyInversion\obj\Debug\net6.0\SOLID_DependencyInversion.pdb
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_DependencyInversion\obj\Debug\net6.0\SOLID_DependencyInversion.genruntimeconfig.cache
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\SOLID_DependencyInversion\obj\Debug\net6.0\ref\SOLID_DependencyInversion.dll

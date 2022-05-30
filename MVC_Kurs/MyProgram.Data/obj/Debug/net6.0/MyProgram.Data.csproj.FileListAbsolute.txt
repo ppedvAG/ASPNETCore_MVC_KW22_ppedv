@@ -1,0 +1,12 @@
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\MyProgram.Data\bin\Debug\net6.0\MyProgram.Data.deps.json
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\MyProgram.Data\bin\Debug\net6.0\MyProgram.Data.dll
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\MyProgram.Data\bin\Debug\net6.0\MyProgram.Data.pdb
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\MyProgram.Data\obj\Debug\net6.0\MyProgram.Data.csproj.AssemblyReference.cache
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\MyProgram.Data\obj\Debug\net6.0\MyProgram.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\MyProgram.Data\obj\Debug\net6.0\MyProgram.Data.AssemblyInfoInputs.cache
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\MyProgram.Data\obj\Debug\net6.0\MyProgram.Data.AssemblyInfo.cs
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\MyProgram.Data\obj\Debug\net6.0\MyProgram.Data.csproj.CoreCompileInputs.cache
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\MyProgram.Data\obj\Debug\net6.0\MyProgram.Data.dll
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\MyProgram.Data\obj\Debug\net6.0\refint\MyProgram.Data.dll
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\MyProgram.Data\obj\Debug\net6.0\MyProgram.Data.pdb
+C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\MyProgram.Data\obj\Debug\net6.0\ref\MyProgram.Data.dll
