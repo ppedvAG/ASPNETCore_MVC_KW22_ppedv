@@ -12,7 +12,7 @@ Montag
 - [x] Multiple-Implementations + (selbe Interface) with IOC.
 
 
-- [ ] Konfigurationen einlesen -> Dependency Injcetion + Konfigurationen
+- [x] Konfigurationen einlesen -> Dependency Injcetion + Konfigurationen
 - [ ] Logging 
 
 

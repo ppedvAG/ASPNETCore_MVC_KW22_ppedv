@@ -9,7 +9,6 @@ IServiceCollection serviceCollection = new ServiceCollection();
 serviceCollection.AddSingleton<ICar, DummyCar>(); //Objekt wird nur 1x instanziiert -> Singleton - Pattern
 
 //Was wäre, wenn weitere Implementierung mit selben Interface?
-
 //serviceCollection.AddSingleton<ICar, DummyCar2>(); 
 
 //Unterschied zwischen Singleton / Scoped / Transient?
@@ -22,9 +21,12 @@ ServiceProvider provider = serviceCollection.BuildServiceProvider();
 
 //Mithilfe des ServiceProvider können wir auf den IOC-Container zugreifen
 
-//Objekt Ahoi
+//Was passiert, wenn Eintrag nicht gefunden?
+
+//Bei nicht finden eines Eintrages, wird eine Exception ausgegeben
 ICar myDummyCar = provider.GetRequiredService<ICar>();
 
+//NULL wird zurückgegeben
 ICar? myDummyCar2 = provider.GetService<ICar>();
 
 //Unterschied zwischen GetRequiredService und GetService:

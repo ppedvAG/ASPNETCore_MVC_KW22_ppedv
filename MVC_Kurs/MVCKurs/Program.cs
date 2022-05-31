@@ -8,10 +8,16 @@ WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 #region ConfigureServices->IServiceCollection 
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews(options=> {
+    //Optionen können gesetzt werden
+});
+
+
 
 builder.Services.AddSingleton<ICar, Car>();
 builder.Services.AddSingleton(typeof(Car2));
+
+builder.Services.AddScoped<IDateTimeService, DateTimeService>();
 
 //Weitere Dienste hinzufügen -> Singleton/Scoped / Transient 
 
@@ -21,7 +27,6 @@ builder.Host.ConfigureAppConfiguration((hostingContext, config) =>
     //Weite Konfigurationsdateien können wir hinzufügen 
     config.AddJsonFile("GameSettings.json" , optional: true, reloadOnChange: true);
 });
-
 
 builder.Services.Configure<GameSettings>(builder.Configuration.GetSection("GameSettings"));
 #endregion
@@ -33,6 +38,7 @@ WebApplication app = builder.Build(); //Erstellen des ServiceProviders
 
 
 #region DI-Samples -> frühstmöglichen Zugriff auf IOC Container (2 Varianten) 
+//Use Cases, wenn wir Testdaten vorab in das Problem intialisieren möchten 
 
 ICar car = app.Services.GetRequiredService<ICar>(); //.NET 6 
 
@@ -40,10 +46,8 @@ ICar car = app.Services.GetRequiredService<ICar>(); //.NET 6
 using (IServiceScope scope = app.Services.CreateScope())
 {
     ICar car2 = scope.ServiceProvider.GetRequiredService<ICar>();
+    ICar? car3 = scope.ServiceProvider.GetService<ICar>();
 }
-
-
-
 #endregion
 
 

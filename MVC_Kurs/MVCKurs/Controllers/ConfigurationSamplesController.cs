@@ -32,12 +32,13 @@ namespace MVCKurs.Controllers
 
 
         /// <summary>
-        /// IOptionPatterns -> 
+        /// IOptionPatterns -> IOptionsSnapshot -> Werte können zur Laufzeit in der Konfiguration geändert werden und werden on the fly üpernommen
         /// </summary>
         /// <param name=""></param>
         /// <returns></returns>
         public IActionResult Sample2([FromServices] IOptionsSnapshot<GameSettings> gameSettings)
         {
+            //Wir übegeben die Klasse GameSettings an die View 
             return View(gameSettings.Value);
         }
     }

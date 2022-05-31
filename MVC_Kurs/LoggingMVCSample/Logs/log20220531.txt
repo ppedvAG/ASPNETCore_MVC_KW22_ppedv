@@ -1,0 +1,4 @@
+2022-05-31 10:20:42.095 +02:00 [INF] Wir rufen die Index-Seite auf
+2022-05-31 10:20:54.928 +02:00 [INF] Wir rufen die Privacy-Seite auf
+2022-05-31 10:20:57.917 +02:00 [INF] Wir rufen die Index-Seite auf
+2022-05-31 10:21:00.056 +02:00 [INF] Wir rufen die Privacy-Seite auf

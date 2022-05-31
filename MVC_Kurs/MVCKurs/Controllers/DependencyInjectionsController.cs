@@ -3,18 +3,25 @@ using MVCKurs.Services;
 
 namespace MVCKurs.Controllers
 {
-    //
-    //Controller-Klasse wird bei jedem Request neu erstellt (Factory-Pattern)
+    //Bei´einem Request passiert folgendes: 
+
+    //Controller-Klasse wird bei jedem Request neu erstellt (Factory-Pattern) -> Also eine neue Instanz
+    //Auf Konstruktors 
+    //Die jeweilige Action wird aufgerufen 
     public class DependencyInjectionsController : Controller
     {
         private readonly ICar car;
 
 
-        //Konstruktor - Injection
-        //ctor + tab + tab 
-        public DependencyInjectionsController(ICar car) //Wir greifen auf den IOC Container zu und erhalten eine Instanz von Car -> Intern wird ServiceProvider.GetRequiredService aufgerufen 
+        //Konstruktor - Injection -> GetRequiredService
+        //ctor + tab + tab  
+        public DependencyInjectionsController(ICar car, IDateTimeService dateTimeService) //Wir greifen auf den IOC Container zu und erhalten eine Instanz von Car -> Intern wird ServiceProvider.GetRequiredService aufgerufen 
         {
             this.car = car;
+
+            //Ist nicht Ideale Weg, aber machbar. 
+            //dateTimeService = new DateTimeService(new DateTime(1999, 5, 5));
+            //dateTimeService.CurrentDateTime = new DateTime(1999, 5, 5);
         }
 
         //public DependencyInjectionsController(ICar car, Car2 onlyObject) //Wir greifen auf den IOC Container zu und erhalten eine Instanz von Car -> Intern wird ServiceProvider.GetRequiredService aufgerufen 
@@ -30,6 +37,7 @@ namespace MVCKurs.Controllers
             return View();
         }
 
+        //Expliziet für eine Action-Methode verwenden wir [FromServices] 
         public IActionResult Index2([FromServices] ICar carOnlyForThisActionMethode)
         {
             return View();
