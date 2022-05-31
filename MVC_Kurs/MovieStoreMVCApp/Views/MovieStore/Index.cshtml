@@ -1,0 +1,60 @@
+﻿@model IEnumerable<Movie>
+
+@{
+    ViewData["Title"] = "Index";
+    //Layout = "_Layout" -> explizietes Setzten der Layout, überschreibt vordefiniertes Setzen von ViewStart->Layout Property
+}
+
+<h1>Index</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <!-- th Column Header (Spalte)-->
+            <th>
+                @Html.DisplayNameFor(model=>model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=>model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=>model.Genre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=>model.PublishedDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=>model.Price)
+            </th>
+            <th>
+                <!-- Spalte für Buttons -->
+                <a asp-action="Create">+</a>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(Movie currentMovie in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(item=>currentMovie.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(item=>currentMovie.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(item=>currentMovie.Genre)
+                </td>
+                <td>
+                    @Html.DisplayFor(item=>currentMovie.PublishedDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(item=>currentMovie.Price)
+                </td>
+                <td>
+                    <a asp-controller="MovieStore" asp-action="Details" asp-route-id="@currentMovie.Id" >Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

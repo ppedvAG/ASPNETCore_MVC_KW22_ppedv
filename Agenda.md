@@ -13,7 +13,7 @@ Montag
 
 
 - [x] Konfigurationen einlesen -> Dependency Injcetion + Konfigurationen
-- [ ] Logging 
+- [x] Logging 
 
 
 - [ ] Präsentationsschicht (1 Stunde) 
@@ -26,8 +26,8 @@ Montag
 Dienstag
 Die Controller-Klasse (MVC)
 - [ ] Überblick über HTTPContext und Controller-Basisklasse
-- [ ] Was ist GET und POST -Methoden
-- [ ] QueryString bei Get-Methoden
+- [x] Was ist GET und POST -Methoden
+- [x] QueryString bei Get-Methoden
 
 Formular:
 - [ ] Ein Formular mit mehren Buttons (Post-Methoden)
@@ -41,9 +41,10 @@ EF-Core:
   - [ ] Add-Migration + Update-Database im Bezug auf eine DBContext 
 
 Formular 2:
-- [ ] Data Annotations 
-- [ ] Validierung (clientseitig und serverseitig)
-- [ ] Gehen Geldbeträge mit Komma?
+- [x] Data Annotations 
+- [x] Validierung (clientseitig und serverseitig)
+- [x] Gehen Geldbeträge mit Komma (Clientseitiger Bug)?
+- [ ] Geldbeträge mit 2 Kommastellen
 
 
 Formual-Beispiel mit Bild-Dataien
@@ -52,9 +53,12 @@ Formual-Beispiel mit Bild-Dataien
 
 Razor-Erweiterungen
 - [ ] PartialView
-- [ ] ViewComponents & Localization -> Referenz Projekte anschauen
 - [ ] HTML-Helper
 - [ ] TagHelpers
+
+
+
+- [ ] ViewComponents & Localization -> Referenz Projekte anschauen (Mittwoch)
 
 State-Management
 - [ ] Session-Handling -> Bauen einen Warenkorb (mit Artikel entfernen)

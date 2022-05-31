@@ -1,0 +1,104 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MovieStoreGeneratedApp
+build_property.RootNamespace = MovieStoreGeneratedApp
+build_property.ProjectDir = C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\MovieStoreGeneratedApp\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\MovieStoreGeneratedApp
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Aktueller Kurs/ASPNETCore_MVC_KW22_ppedv/MVC_Kurs/MovieStoreGeneratedApp/Views/Actor/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_MVC_KW22_ppedv/MVC_Kurs/MovieStoreGeneratedApp/Views/Actor/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_MVC_KW22_ppedv/MVC_Kurs/MovieStoreGeneratedApp/Views/Actor/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_MVC_KW22_ppedv/MVC_Kurs/MovieStoreGeneratedApp/Views/Actor/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_MVC_KW22_ppedv/MVC_Kurs/MovieStoreGeneratedApp/Views/Actor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_MVC_KW22_ppedv/MVC_Kurs/MovieStoreGeneratedApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_MVC_KW22_ppedv/MVC_Kurs/MovieStoreGeneratedApp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_MVC_KW22_ppedv/MVC_Kurs/MovieStoreGeneratedApp/Views/Movie/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_MVC_KW22_ppedv/MVC_Kurs/MovieStoreGeneratedApp/Views/Movie/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_MVC_KW22_ppedv/MVC_Kurs/MovieStoreGeneratedApp/Views/Movie/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_MVC_KW22_ppedv/MVC_Kurs/MovieStoreGeneratedApp/Views/Movie/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_MVC_KW22_ppedv/MVC_Kurs/MovieStoreGeneratedApp/Views/Movie/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_MVC_KW22_ppedv/MVC_Kurs/MovieStoreGeneratedApp/Views/Regisseur/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXNzZXVyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_MVC_KW22_ppedv/MVC_Kurs/MovieStoreGeneratedApp/Views/Regisseur/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXNzZXVyXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_MVC_KW22_ppedv/MVC_Kurs/MovieStoreGeneratedApp/Views/Regisseur/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXNzZXVyXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_MVC_KW22_ppedv/MVC_Kurs/MovieStoreGeneratedApp/Views/Regisseur/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXNzZXVyXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_MVC_KW22_ppedv/MVC_Kurs/MovieStoreGeneratedApp/Views/Regisseur/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXNzZXVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_MVC_KW22_ppedv/MVC_Kurs/MovieStoreGeneratedApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_MVC_KW22_ppedv/MVC_Kurs/MovieStoreGeneratedApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_MVC_KW22_ppedv/MVC_Kurs/MovieStoreGeneratedApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_MVC_KW22_ppedv/MVC_Kurs/MovieStoreGeneratedApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_MVC_KW22_ppedv/MVC_Kurs/MovieStoreGeneratedApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-xaa0s0c3cu
