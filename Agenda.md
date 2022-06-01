@@ -17,28 +17,28 @@ Montag
 
 
 - [ ] Präsentationsschicht (1 Stunde) 
-- [ ] Razor-Syntax / RazorEngine 
-- [ ] Bootstrap
-- [ ] MVC mit ViewModels
+- [x] Razor-Syntax / RazorEngine 
+- [x] Bootstrap
+- [x] MVC mit ViewModels
 
 
 
 Dienstag
 Die Controller-Klasse (MVC)
-- [ ] Überblick über HTTPContext und Controller-Basisklasse
+- [x] Überblick über HTTPContext und Controller-Basisklasse
 - [x] Was ist GET und POST -Methoden
 - [x] QueryString bei Get-Methoden
 
 Formular:
-- [ ] Ein Formular mit mehren Buttons (Post-Methoden)
+- [x] Ein Formular mit mehren Buttons (Post-Methoden)
 
 
 
 EF-Core: 
-- [ ] EF Core Einstieg (flexibel)
-  - [ ] Code First / Code First Reverse
-  - [ ] Repository / UnitOfWork Pattern in EF
-  - [ ] Add-Migration + Update-Database im Bezug auf eine DBContext 
+- [x] EF Core Einstieg (flexibel)
+  - [x] Code First / Code First Reverse
+  - [x] Repository / UnitOfWork Pattern in EF
+  - [x] Add-Migration + Update-Database im Bezug auf eine DBContext 
 
 Formular 2:
 - [x] Data Annotations 
@@ -48,27 +48,26 @@ Formular 2:
 
 
 Formual-Beispiel mit Bild-Dataien
-- [ ] Upload von Bilddateien + einfache Darstellung in einer Gallery (Formularverbeitung Bezug Dienstag)
+- [x] Upload von Bilddateien + einfache Darstellung in einer Gallery (Formularverbeitung Bezug Dienstag)
 
+State-Management
+- [x] Session-Handling -> Bauen einen Warenkorb (mit Artikel entfernen)
+- [x] ViewData
+- [x] ViewBag
+- [x] TempData
+
+- [x] Relationale Daten in ASP.NET Core MVC
 
 Razor-Erweiterungen
-- [ ] PartialView
+- [x] PartialView
 - [ ] HTML-Helper
 - [ ] TagHelpers
 
-
-
+- [x] Tabelle Sortierung, Pagging, Filtern direkt mit EFCore (anderes Movie-Projekt mit unterschied, dass die Tabelle mehr Features hat)
 - [ ] ViewComponents & Localization -> Referenz Projekte anschauen (Mittwoch)
-
-State-Management
-- [ ] Session-Handling -> Bauen einen Warenkorb (mit Artikel entfernen)
-- [ ] ViewData
-- [ ] ViewBag
-- [ ] TempData
 
 Benutzerverwaltung -Authentifizierung 
 - [ ] Identity UI in ASP.NET Core MVC -> weitere UseCases zu PartialView
-
 
 Mittwoch: 
 - Routing
@@ -76,7 +75,7 @@ Mittwoch:
 - [ ] Attribute Routing (HttpVerbs)
 
 Middleware
-- [ ] Middleware -> Was ist ein Pipeline (Use, Run, Map)
+- [x] Middleware -> Was ist ein Pipeline (Use, Run, Map)
 
 
 Optional:
@@ -84,7 +83,6 @@ LAB?
 - [ ] Übung Gästebuch (GET/POST) + EFCore(Model erstellen, DbContext-Klasse, Rollout auf DB)
 
 Erweitere Tablle (Sorting/Pagging Codeüberblick) -> War von einer Innhouse-Schulung Extra wunsch (Code-Beispiel kann beigefügt werden)
-- [ ] Tabelle Sortierung, Pagging, Filtern direkt mit EFCore (anderes Movie-Projekt mit unterschied, dass die Tabelle mehr Features hat)
 - [ ] WebAPI -> Backend mit Pagging, Sortierung + in MVC verwenden wir HttpClient
 - [ ] Customize Middleware für formatierte Bildausgaben (Gallery)+ In Verbindung mit einem Bild-Upload-Formular
 - [ ] Filter/Attribute -> https://docs.microsoft.com/de-de/aspnet/core/mvc/controllers/filters?view=aspnetcore-5.0#resource-filters

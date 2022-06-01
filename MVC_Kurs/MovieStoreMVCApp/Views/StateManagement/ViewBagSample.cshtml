@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewData["Title"] = "ViewBagSample";
+}
+
+<h1>ViewBagSample</h1>
+
+@{
+    //C#-Block mit mehrfacher Zeilen Möglichkeit
+
+    //Zugirff auf ViewData via Code-Block
+    string abc = ViewBag.ABC;
+}
+
+<p>@abc</p>
+
+<p>@ViewBag.DEF</p>

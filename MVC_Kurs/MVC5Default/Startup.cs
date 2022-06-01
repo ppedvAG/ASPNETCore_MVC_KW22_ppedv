@@ -27,6 +27,8 @@ namespace MVC5Default
         {
             //Aubau des IOC Containers
             services.AddControllersWithViews();
+            services.AddSession(); //Session Middleware -> Unser WebAPP kann jetzt Session 
+
             //Weitere Dienste hinzufügen -> Singleton/Scoped / Transient 
         }
 
@@ -43,12 +45,18 @@ namespace MVC5Default
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+            app.UseSession();
 
             app.UseRouting();
 
             app.UseAuthorization();
+
+
+            //Customize Middlewares
+
 
             app.UseEndpoints(endpoints =>
             {

@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewData["Title"] = "ViewDataSample";
+}
+
+<h1>ViewDataSample</h1>
+
+@(DateTime.Now.ToString())
+
+@{
+    //C#-Block mit mehrfacher Zeilen Möglichkeit
+
+    //Zugirff auf ViewData via Code-Block
+    string abc = ViewData["abc"].ToString();
+}
+
+<p>@abc</p>
+
+<p>@ViewData["def"]</p>

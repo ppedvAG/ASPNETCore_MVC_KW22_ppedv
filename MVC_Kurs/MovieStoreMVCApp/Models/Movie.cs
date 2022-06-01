@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel; //Anzeigevarianten 
 using System.ComponentModel.DataAnnotations; //Validierungen (Auswirkung auf UI + DB-Rollout)
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MovieStoreMVCApp.Models
 {
@@ -17,13 +18,20 @@ namespace MovieStoreMVCApp.Models
         [MaxLength(100)]
         public string Description { get;set; }
 
-        [Range(0,99.99)]
+
+
+        [Range(1, 100)]
+        [DataType(DataType.Currency)]
+        [Column(TypeName = "decimal(18, 2)")]
         public decimal Price { get; set; } 
 
         [DisplayName("Publish Date")]
         public DateTime PublishedDate { get; set; }
 
+        
         public int IMDBRating { get; set; }
+
+        public string MovieImage { get; set; } = string.Empty;
 
         public GenreTyp Genre { get; set; }
     }

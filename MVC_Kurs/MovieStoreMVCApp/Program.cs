@@ -1,5 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using MovieStoreMVCApp.Data;
+using MovieStoreMVCApp.Middleware;
+
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +15,12 @@ builder.Services.AddDbContext<MovieDbContext>(options =>
     //options.UseInMemoryDatabase("MovieDB");
 
     options.UseSqlServer(builder.Configuration.GetConnectionString("MSSQLConStr"));
+});
+
+
+builder.Services.AddSession(options=>
+{
+    
 });
 
 var app = builder.Build();
@@ -27,7 +36,9 @@ MovieDbContext dbContext = scope.ServiceProvider.GetRequiredService<MovieDbConte
 
 //DataSeeder bekommt MovieDBContext, z.b Initialisieren der 
 DataSeeder.SeedMovieStoreDb(dbContext);
- 
+
+
+AppDomain.CurrentDomain.SetData("RootVerzeichnis", app.Environment.WebRootPath);
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -38,11 +49,28 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseSession();
+
 app.UseStaticFiles();
 
 app.UseRouting();
 
+//Unsere Thumbnail Middleware
+
+app.MapWhen(context => context.Request.Path.ToString().Contains("imagegen"), subapp =>
+{
+    subapp.UseThumbNailGen();
+});
+
+
 app.UseAuthorization();
+
+
+
+app.MapControllerRoute(name: "statemanagement",
+                pattern: "StateManagement/{*state}",
+                defaults: new { controller = "StateManagement", action = "ViewDataSample" });
 
 app.MapControllerRoute(
     name: "default",

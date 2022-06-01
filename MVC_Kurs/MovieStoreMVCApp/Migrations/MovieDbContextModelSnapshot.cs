@@ -41,6 +41,10 @@ namespace MovieStoreMVCApp.Migrations
                     b.Property<int>("IMDBRating")
                         .HasColumnType("int");
 
+                    b.Property<string>("MovieImage")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 

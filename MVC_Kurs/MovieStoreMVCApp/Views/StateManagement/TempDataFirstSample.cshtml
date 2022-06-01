@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewData["Title"] = "TempDataFirstSample";
+}
+
+<h1>TempDataFirstSample</h1>
+
+@*TempData.Peek unterdrück einen selektiven Eintrag im TempData*@
+
+@TempData.Peek("EmailAdresse");
+
+@TempData.Peek("Id");

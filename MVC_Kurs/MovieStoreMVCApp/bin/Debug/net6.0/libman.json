@@ -7,9 +7,12 @@
       "destination": "wwwroot/lib/globalize/"
     },
     {
-      "provider": "unpkg",
       "library": "jquery-validation-globalize@0.1.1",
       "destination": "wwwroot/lib/jquery-validation-globalize/"
+    },
+    {
+      "library": "jquery-formatcurrency@1.6.3",
+      "destination": "wwwroot/lib/jquery-formatcurrency/"
     }
   ]
 }

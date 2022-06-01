@@ -15,6 +15,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Aktueller Kurs\ASPNETCore_MVC_KW22_ppedv\MVC_Kurs\MovieStoreMVCApp
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Aktueller Kurs/ASPNETCore_MVC_KW22_ppedv/MVC_Kurs/MovieStoreMVCApp/Views/Cart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_MVC_KW22_ppedv/MVC_Kurs/MovieStoreMVCApp/Views/Cart/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Aktueller Kurs/ASPNETCore_MVC_KW22_ppedv/MVC_Kurs/MovieStoreMVCApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -45,6 +53,34 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Aktueller Kurs/ASPNETCore_MVC_KW22_ppedv/MVC_Kurs/MovieStoreMVCApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_MVC_KW22_ppedv/MVC_Kurs/MovieStoreMVCApp/Views/StateManagement/SessionAccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGVNYW5hZ2VtZW50XFNlc3Npb25BY2Nlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_MVC_KW22_ppedv/MVC_Kurs/MovieStoreMVCApp/Views/StateManagement/SessionInitalize.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGVNYW5hZ2VtZW50XFNlc3Npb25Jbml0YWxpemUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_MVC_KW22_ppedv/MVC_Kurs/MovieStoreMVCApp/Views/StateManagement/TempDataFirstSample.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGVNYW5hZ2VtZW50XFRlbXBEYXRhRmlyc3RTYW1wbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_MVC_KW22_ppedv/MVC_Kurs/MovieStoreMVCApp/Views/StateManagement/TempDataSecondSample.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGVNYW5hZ2VtZW50XFRlbXBEYXRhU2Vjb25kU2FtcGxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_MVC_KW22_ppedv/MVC_Kurs/MovieStoreMVCApp/Views/StateManagement/TempDataThirdSample.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGVNYW5hZ2VtZW50XFRlbXBEYXRhVGhpcmRTYW1wbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_MVC_KW22_ppedv/MVC_Kurs/MovieStoreMVCApp/Views/StateManagement/ViewBagSample.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGVNYW5hZ2VtZW50XFZpZXdCYWdTYW1wbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_MVC_KW22_ppedv/MVC_Kurs/MovieStoreMVCApp/Views/StateManagement/ViewDataSample.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGVNYW5hZ2VtZW50XFZpZXdEYXRhU2FtcGxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Aktueller Kurs/ASPNETCore_MVC_KW22_ppedv/MVC_Kurs/MovieStoreMVCApp/Views/_ViewImports.cshtml]

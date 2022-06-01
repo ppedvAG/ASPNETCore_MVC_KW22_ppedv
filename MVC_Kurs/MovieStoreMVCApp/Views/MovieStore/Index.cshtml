@@ -1,4 +1,5 @@
-﻿@model IEnumerable<Movie>
+﻿@using MovieStoreMVCApp.Helpers
+@model PaginatedList<Movie>
 
 @{
     ViewData["Title"] = "Index";
@@ -7,24 +8,37 @@
 
 <h1>Index</h1>
 
+<form asp-action="Index" method="get">
+    <div class="form-actions no-color">
+        <p>
+            Find by name: <input type="text" name="SearchString" value="@ViewData["CurrentFilter"]" />
+            <input type="submit" value="Search" class="btn btn-default" /> |
+            <a asp-action="Index">Back to Full List</a>
+        </p>
+    </div>
+</form>
+
 <table class="table">
     <thead>
         <tr>
             <!-- th Column Header (Spalte)-->
             <th>
-                @Html.DisplayNameFor(model=>model.Title)
+                Coverbild
             </th>
             <th>
-                @Html.DisplayNameFor(model=>model.Description)
+                @Html.DisplayNameFor(model=>model.First().Title)
             </th>
             <th>
-                @Html.DisplayNameFor(model=>model.Genre)
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["DescriptionSortParam"]" asp-route-currentFilter="@ViewData["CurrentFilter"]">@Html.DisplayNameFor(model=>model.First().Description)</a>
             </th>
             <th>
-                @Html.DisplayNameFor(model=>model.PublishedDate)
+                Genre
             </th>
             <th>
-                @Html.DisplayNameFor(model=>model.Price)
+                Published Date
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["PriceSortParam"]" asp-route-currentFilter="@ViewData["CurrentFilter"]">@Html.DisplayNameFor(model=>model.First().Price)</a>
             </th>
             <th>
                 <!-- Spalte für Buttons -->
@@ -36,6 +50,9 @@
         @foreach(Movie currentMovie in Model)
         {
             <tr>
+                <td>
+                    <img class="img-fluid" src="/imagegen?img=/@System.IO.Path.GetFileName(currentMovie.MovieImage)" />
+                </td>
                 <td>
                     @Html.DisplayFor(item=>currentMovie.Title)
                 </td>
@@ -53,8 +70,30 @@
                 </td>
                 <td>
                     <a asp-controller="MovieStore" asp-action="Details" asp-route-id="@currentMovie.Id" >Details</a>
+                    <a asp-controller="MovieStore" asp-action="Delete" asp-route-id="@currentMovie.Id" >Delete</a>
+                    <a asp-controller="Cart" asp-action="buy" asp-route-id="@currentMovie.Id">Buy Now</a>
                 </td>
             </tr>
         }
     </tbody>
 </table>
+
+@{
+    var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+    var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+}
+
+<a asp-action="Index"
+   asp-route-sortOrder="@ViewData["CurrentSort"]"
+   asp-route-pageNumber="@(Model.PageIndex - 1)"
+   asp-route-currentFilter="@ViewData["CurrentFilter"]"
+   class="btn btn-default @prevDisabled">
+    Previous
+</a>
+<a asp-action="Index"
+   asp-route-sortOrder="@ViewData["CurrentSort"]"
+   asp-route-pageNumber="@(Model.PageIndex + 1)"
+   asp-route-currentFilter="@ViewData["CurrentFilter"]"
+   class="btn btn-default @nextDisabled">
+    Next
+</a>

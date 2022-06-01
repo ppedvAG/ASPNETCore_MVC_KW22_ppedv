@@ -32,7 +32,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggingMVCSample", "Logging
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieStoreMVCApp", "MovieStoreMVCApp\MovieStoreMVCApp.csproj", "{00C61FD4-C27F-4CF1-9CE5-4F82353B1BA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieStoreGeneratedApp", "MovieStoreGeneratedApp\MovieStoreGeneratedApp.csproj", "{FD3813E2-E8CC-4B26-839C-9EFD755D74F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieStoreGeneratedApp", "MovieStoreGeneratedApp\MovieStoreGeneratedApp.csproj", "{FD3813E2-E8CC-4B26-839C-9EFD755D74F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoRelationsSample", "GeoRelationsSample\GeoRelationsSample.csproj", "{DB5381DD-6BEA-4EE4-B3F6-4D408D93DE3D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -92,6 +94,10 @@ Global
 		{FD3813E2-E8CC-4B26-839C-9EFD755D74F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD3813E2-E8CC-4B26-839C-9EFD755D74F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD3813E2-E8CC-4B26-839C-9EFD755D74F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB5381DD-6BEA-4EE4-B3F6-4D408D93DE3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB5381DD-6BEA-4EE4-B3F6-4D408D93DE3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB5381DD-6BEA-4EE4-B3F6-4D408D93DE3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB5381DD-6BEA-4EE4-B3F6-4D408D93DE3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
